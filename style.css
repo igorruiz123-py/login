@@ -50,7 +50,7 @@ body {
     font-size: 2vmin;
 }
 
-#button-welcome-back {
+#button {
     width: 10vw;
     height: 4vh;
     margin-top: 5%;
@@ -58,9 +58,10 @@ body {
     background: lightseagreen;
     font-size: 1.5vmin;
     border-radius: 30px;
+    border: solid 3px white;
 }
 
-.sign-in-text {
+.sign-in-content {
     margin-top: 30%;
     display: flex;
     align-items: center;
@@ -69,3 +70,101 @@ body {
     width: 20vw;
     height: 30vh;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 35vw;
+}
+
+.sign-up-content {
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 30vh;
+}
+
+#title-create-account {
+    color: lightseagreen;
+    text-align: center;
+    font-size: 5vmin;
+}
+
+#create-account-paragraph {
+    text-align: center;
+    color: gray;
+    font-size: 2vmin;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 30vh;
+}
+
+.registration i {
+    margin-right: 10px;
+    color: gray;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 1.8vmin;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 20vw;
+    height: 5vh;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 1.8vmin;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 20vw;
+    height: 5vh;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 1.8vmin;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 20vw;
+    height: 5vh;
+}
+
+#name-input {
+    border: 0;
+    background: #e9ecef;
+    width: 12vw;
+    height: 2vh;
+}
+
+#email-input {
+    border: 0;
+    background: #e9ecef;
+    width: 12vw;
+    height: 2vh;
+}
+
+#password-input {
+    border: 0;
+    background: #e9ecef;
+    width: 12vw;
+    height: 2vh;
+}
+
