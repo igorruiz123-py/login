@@ -63,6 +63,9 @@
     <code class="language-bash">
         .
         ├── assets
+        │   ├── css.png
+        │   ├── docker.png
+        │   ├── html.png
         │   ├── login_preview.png
         │   └── user_auth.png
         ├── docker-compose.yaml
